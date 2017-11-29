@@ -1,0 +1,43 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-offset-4 col-md-offset-4 col-lg-offset-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="logo" ng-if="config.logo">
+                    <a ui-sref="home">
+                        <img class="img-responsive" ng-src="{{ ::config.logo }}"/>
+                    </a>
+                </div>
+                <div class="menu-contato">
+                    <div class="contato-info">
+                        <div class="endereco">
+                            <h5>{{ ::config.endereco }}</h5>
+                            <h5>{{ ::config.cidade }}</h5>
+                        </div>
+                        <div class="telefone">
+                            <h5 ddd telefone="config.telefone"></h5>
+                            <h4 fone telefone="config.telefone"></h4>
+                        </div>
+                        <div class="social-links" ng-if="config.redes_sociais">
+                            <a ng-repeat="rs in config.redes_sociais track by rs.id" ng-href="{{ ::rs.link }}" class="{{ ::rs.nome }}" title="{{ ::rs.nome }}">
+                                <!--<img ng-src="/images/{{ ::rs.nome }}.svg">-->
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="assinatura">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6 direitos">
+                            <h6>© Copyright 2017 • todos os direitos reservados • duesoft</h6>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6 agencia-ativa">
+                            <h6>DESENVOLVIMENTO: </h6>
+                            <a href="#">
+                                <img src="/images/logo_ativa.png" alt="Agência Ativa" class="img-responsive" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

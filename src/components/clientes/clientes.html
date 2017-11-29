@@ -1,0 +1,39 @@
+<section id="clientes">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-md-5 col-lg-5" ng-bind-html="vm.clientes.titulo"></div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="row">
+                    <div class="col-sm-9 col-md-8 col-lg-8" ng-bind-html="vm.clientes.texto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row clientes">
+            <div class="col-md-3 col-sm-4 col-xs-6 cliente" ng-repeat="c in vm.clientes.clientes track by c.id">
+                <a ng-href="{{ ::c.link }}">
+                    <img ng-src="{{ ::c.imagem }}" class="img-responsive" title="{{ ::c.titulo }}"/>
+                </a>
+            </div>
+        </div>
+        <div class="row depoimentos" ng-if="vm.clientes.depoimentos.length > 0">
+            <h3 class="text-center">Depoimentos</h3>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div id="depoimentos-carousel" uib-carousel class="slide" data-ride="carousel" active="slide.active" interval="5000" no-wrap="false">
+                    <div uib-slide ng-repeat="slide in vm.clientes.depoimentos" index="$index">
+                        <div class="row">
+                            <div class="col-sm-5 col-md-5 col-lg-5">
+                                <div class="carousel-caption">
+                                    <div ng-bind-html="slide.titulo"></div>
+                                    <div ng-bind-html="slide.texto"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-7 col-md-7 col-lg-7">
+                                <img class="img-responsive" ng-src="{{ ::slide.video_link }}" style="margin:auto;" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

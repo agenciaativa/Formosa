@@ -1,0 +1,688 @@
+{
+	"config": {
+		"logo": "/images/logo.png",
+		"endereco": "Av. Brasil, 2860 - Vila Industrial",
+		"cidade": "Presidente Prudente - SP",
+		"email": "contato@duesoft.com.br",
+		"telefone": "(18) 3223-2188",
+		"celular": "(18) 99775 7600",
+		"latitude": -22.118807,
+		"longitude": -51.38289800000001,
+		"redes_sociais": [
+			{
+				"id": 1,
+				"nome": "linkedin",
+				"link": "#"
+			},
+			{
+				"id": 2,
+				"nome": "instagram",
+				"link": "#"
+			},
+			{
+				"id": 3,
+				"nome": "facebook",
+				"link": "#"
+			}
+		]
+	},
+	"banners": [
+		{
+			"id": 1,
+			"imagem": "/images/banner1.jpg"
+		},
+		{
+			"id": 2,
+			"imagem": "/images/banner2.jpg"
+		},
+		{
+			"id": 3,
+			"imagem": "/images/banner1.jpg"
+		},
+		{
+			"id": 4,
+			"imagem": "/images/banner2.jpg"
+		}
+	],
+	"home": {
+		"banners": [
+			{
+				"id": 1,
+				"imagem": "/images/banner1.jpg"
+			},
+			{
+				"id": 2,
+				"imagem": "/images/banner1.jpg"
+			},
+			{
+				"id": 3,
+				"imagem": "/images/banner1.jpg"
+			},
+			{
+				"id": 4,
+				"imagem": "/images/banner1.jpg"
+			}
+		],
+		"institucional_imagem": "/images/institucional.png",
+		"institucional_titulo": "<h3>ESCOLHA<br><span>A DUESOFT COMO</span><br>SOLUÇÃO PARA<br><span>SUAS NECESSIDADES!</span></h3>",
+		"institucional_texto": "<p>Sistemas customizados e soluções empresariais.<br>Sistemas inovadores criados única e exclusivamente para garantir a sua empresa a melhor solução e vantagem competitiva referente ao seu mercado de atuação.</p>",
+		"descritivo_titulo": "<h3 class='text-center'><span>Facilidade e tranquilidade</span> para <span>você</span> e sua <span>empresa</span></h3>",
+		"descritivo_itens": [
+			{
+				"id": 1,
+				"texto": "<p>Eiusmod quis anim sunt commodo laborum et non eiusmod quis ut. Anim eu voluptate in non. Nostrud veniam anim velit ex duis incididunt veniam elit proident ex sunt et. Dolor ullamco enim ea qui magna nulla cillum magna id. Irure voluptate aute eu nisi sunt sint anim sit velit adipisicing.</p>"
+			},
+			{
+				"id": 2,
+				"texto": "<p>Minim sunt cillum excepteur eiusmod aliquip id aliqua mollit cillum qui cillum ullamco. Mollit in ex voluptate anim aliqua aliqua Lorem velit irure non quis. Elit ea eiusmod ullamco laborum sint aute dolor do esse sit quis sint qui. Eiusmod consequat ut minim voluptate fugiat. Reprehenderit cupidatat laborum voluptate elit laborum. Id aliquip consequat mollit labore dolore. Eiusmod exercitation ad deserunt est irure.</p>"
+			},
+			{
+				"id": 3,
+				"texto": "<p>Pariatur culpa laborum consequat quis. Aliquip esse commodo culpa eiusmod cupidatat. Culpa enim cillum velit ad minim. Consectetur enim esse tempor dolor quis elit qui deserunt enim. Culpa culpa ipsum deserunt exercitation ullamco occaecat nisi sint sint enim ea laborum. Eiusmod do qui dolore consectetur dolor qui cupidatat aliqua est consequat id. Consectetur dolore fugiat eiusmod minim quis commodo labore anim quis elit est eu.</p>"
+			},
+			{
+				"id": 4,
+				"texto": "<p>Nulla amet do ut eu consectetur ad non ut aliqua esse ex ipsum. Qui deserunt duis dolor est dolor dolore culpa consectetur elit duis do nulla pariatur. Magna ad sunt ipsum ad fugiat est cillum esse aliqua.</p>"
+			},
+			{
+				"id": 5,
+				"texto": "<p>Duis elit aliquip tempor culpa et eu non minim proident nulla. Voluptate magna cillum mollit pariatur anim fugiat culpa elit deserunt officia. Reprehenderit fugiat duis qui qui tempor esse minim nulla eiusmod non. Ad adipisicing consequat laborum est aliquip elit. Ut aliquip esse est laboris irure amet eu veniam esse in laboris nulla nisi. Do exercitation fugiat officia commodo deserunt non voluptate incididunt anim nostrud dolor veniam consequat. Et duis dolore proident velit tempor ad minim.</p>"
+			},
+			{
+				"id": 6,
+				"texto": "<p>Non ullamco fugiat veniam consequat occaecat anim voluptate enim. Nulla laborum exercitation consectetur mollit labore minim ut ea reprehenderit id esse consequat. Laborum nostrud in proident qui reprehenderit nisi nisi proident. Excepteur nisi est quis cupidatat dolore laborum consequat fugiat laborum exercitation. Do eiusmod voluptate laborum nostrud est incididunt id est duis. Laborum sunt consectetur officia occaecat enim irure Lorem ullamco velit dolor duis labore.</p>"
+			}
+		],
+		"solucoes_home": {
+			"titulo": "<h3>Conheça nossas <span>soluções</span> e suas <span>vantagens</span></h3>",
+			"texto": "<p class='text-left'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+			"video_link": "/images/video.jpg",
+			"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+			"video_texto": "<p class='text-right'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+			"solucoes": [
+				{
+					"id": 1,
+					"link": "/solucoes/erp",
+					"titulo": "<p>GESTÃO DE NEGÓCIOS <span>ERP</span></p>",
+					"imagem": "/images/erp.jpg"
+				},
+				{
+					"id": 2,
+					"link": "/solucoes/crm",
+					"titulo": "<p>GESTÃO DE CLIENTES <span>CRM</span></p>",
+					"imagem": "/images/crm.jpg"
+				},
+				{
+					"id": 3,
+					"link": "/solucoes/gestao-de-pessoas",
+					"titulo": "<p>GESTÃO DE PESSOAS</p>",
+					"imagem": "/images/rh.jpg"
+				},
+				{
+					"id": 4,
+					"link": "/solucoes/gestao-de-facilities",
+					"titulo": "<p>GESTÃO DE FACILITIES</p>",
+					"imagem": "/images/facilities.jpg"
+				}
+			]
+		}
+	},
+	"sobre": {
+		"institucional_titulo": "<h3>A SOLUÇÃO PARA <span>SUAS NECESSIDADES!</span></h3>",
+		"institucional_texto": "<p>A Duesoft é uma empresa de Presidente Prudente, interior do estado de São Paulo, que foi estabelecidade em 2006 e que se especializou em desenvolver sistemas de computadores customizados. Temos uma equipe de programadores especializada em criar soluções utilizando ferramentas de última geração muito bem aceitas pelo mercado.</p><p>Mais do que conquistar novos clientes, prezamos pela continuidade dos clientes atuais, entregando soluções que ultrapassem suas expectativas e garantindo um bom atendimento às suas necessidades.</p>",
+		"institucional_imagem": "/images/institucional.png",
+		"video_link": "/images/video.jpg",
+		"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+		"video_texto": "<p>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+		"texto": "<div class='principios'><h3>MISSÃO</h3><p>Nossa missão é desenvolver soluções que propiciem às empresas controlar e gerir de forma eficaz os seus negócios.</p></div><div class='principios'><h3>VISÃO</h3><p>Ser reconhecida como a melhor empresa fornecedora de sistemas do mercado.</p></div><div class='principios'><h3>VALORES</h3><p>Trabalhamos com ética e confidencialidade das informações de nossos clientes. Valorizamos cada contribuição individual para o nosso sucesso, e motivamos as pessoas através da integridade, ética e apoio constante para o desenvolvimento pessoal. Prezamos pela responsabilidade social e ambiental.</p></div>"
+	},
+	"solucoes": {
+		"titulo": "<h3>Conheça nossas <span>soluções</span> e suas <span>vantagens</span></h3>",
+		"texto": "<p class='text-left'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+		"video_link": "/images/video.jpg",
+		"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+		"video_texto": "<p class='text-right'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+		"solucoes": [
+			{
+				"id": 1,
+				"link": "/solucoes/erp",
+				"titulo": "<p>GESTÃO DE NEGÓCIOS <span>ERP</span></p>",
+				"nome": "ERP",
+				"slug": "erp",
+				"imagem": "/images/solucao1.jpg",
+				"titulo_texto": "<h3>Conheça nossas <span>soluções</span> e suas <span>vantagens</span></h3>",
+				"texto": "<p class='text-left'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"video_link": "/images/video.jpg",
+				"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+				"video_texto": "<p class='text-right'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"beneficios": [
+					{
+						"id": 1,
+						"titulo": "REALIZE TUDO QUE SUA EMPRESA PRECISA NO MESMO LUGAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/briefcase.svg"
+					},
+					{
+						"id": 2,
+						"titulo": "CONHEÇA SEUS CLIENTES E AUMENTE SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/user.svg"
+					},
+					{
+						"id": 3,
+						"titulo": "EVITE PROBLEMAS COM A INADIMPLÊNCIA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list.svg"
+					},
+					{
+						"id": 4,
+						"titulo": "MAIOR AGILIDADE E FLEXIBILIDADE EM SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/report.svg"
+					},
+					{
+						"id": 5,
+						"titulo": "VENDA MUITO MAIS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/currency.svg"
+					},
+					{
+						"id": 6,
+						"titulo": "EMITA TODOS OS DOCUMENTOS FISCAIS QUE PRECISAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/file.svg"
+					},
+					{
+						"id": 7,
+						"titulo": "REGISTRE AS VENDAS PERDIDAS E REPONHA CORRETAMENTE SEU ESTOQUE",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list-with-squares.svg"
+					},
+					{
+						"id": 8,
+						"titulo": "CONFERÊNCIA DE MERCADORIAS E LEITURA DE CÓDIGO DE BARRAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/bar-code.svg"
+					},
+					{
+						"id": 9,
+						"titulo": "DASHBOARD: INFORMAÇÃO ESTRATÉGICA QUE VEM ATÉ VOCÊ",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/dashboard.svg"
+					},
+					{
+						"id": 10,
+						"titulo": "COMISSIONE SUA EQUIPE DE MANEIRA DIFERENCIADA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/payment.svg"
+					},
+					{
+						"id": 11,
+						"titulo": "SUPORTE ESPECIALIZADO, CONTE CONOSCO",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/support.svg"
+					}
+				],
+				"versoes": [
+					{
+						"id": 1,
+						"titulo": "DS NF-E",
+						"texto": "<p>Versão para empresas que precisam apenas realizar vendas e emitir documentos fiscais ao consumidor (Cupom Fiscal, SAT, NFC-e) ou Notas Fiscais Eletrônicas (DANFE). Ainda dispõe de recursos para vendas a prazo, recebimento de contas e fechamento de caixa. O DS NF-e é uma opção muito mais vantajosa do que o emissor gratuito da Sefaz. Como diferencial, essa licença é comercializada para pagamento anual em taxa única e renovável a cada 12 meses.</p><p class='text-right'>*Licença para um computador.</p>"
+					},
+					{
+						"id": 2,
+						"titulo": "DS ONE",
+						"texto": "<p>Versão para empresas que estão iniciando suas atividades e procuram um diferencial para auxiliar em seu crescimento e organização. Possui todos os recursos necessários para realização de orçamento, vendas, fechamento de caixa, controle de estoque e ainda recursos básicos para controle de contas a receber/pagar, bem como relatórios de controle e gerenciais.</p><p class='text-right'>*Licença para até dois computadores.</p>"
+					},
+					{
+						"id": 3,
+						"titulo": "DS PRO",
+						"texto": "<p>Versão para empresas já consolidadas no mercado que procuram otimizar a gestão e a expansão da empresa. Possui todas as ferramentas necessárias para gestão dos negócios, tais como faturamento, controle de estoque e finanças, além de recursos para controle de contrato de serviços e locação. Dispõe também de relatórios gerenciais para tomada de decisão em três módulos: Comercial, Estoque e Finanças.</p><p class='text-right'>*Licença para até 15 computadores.</p>"
+					},
+					{
+						"id": 4,
+						"titulo": "DS PREMIUM",
+						"texto": "<p>Versão para empresas que procuram expandir seus negócios e buscam destaque em sua região de atuação. Possui todas as ferramentas da versão PRO e ainda módulos para controles fiscal e contábil, ideal para empresas que atuam no regime fiscal normal (Regime do Lucro Real ou Presumido). Gerar arquivos fiscais exigidos pelo fisco: Sped Fiscal, contribuições, ECD, ECF, entre outros.</p><p class='text-right'>*Licença ilimitada por CNPJ.</p>"
+					}
+				]
+			},
+			{
+				"id": 2,
+				"link": "/solucoes/crm",
+				"titulo": "<p>GESTÃO DE CLIENTES <span>CRM</span></p>",
+				"nome": "CRM",
+				"slug": "crm",
+				"imagem": "/images/solucao2.jpg",
+				"titulo_texto": "<h3>Conheça nossas <span>soluções</span> e suas <span>vantagens</span></h3>",
+				"texto": "<p class='text-left'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"video_link": "/images/video.jpg",
+				"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+				"video_texto": "<p class='text-right'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"beneficios": [
+					{
+						"id": 1,
+						"titulo": "REALIZE TUDO QUE SUA EMPRESA PRECISA NO MESMO LUGAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/briefcase.svg"
+					},
+					{
+						"id": 2,
+						"titulo": "CONHEÇA SEUS CLIENTES E AUMENTE SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/user.svg"
+					},
+					{
+						"id": 3,
+						"titulo": "EVITE PROBLEMAS COM A INADIMPLÊNCIA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list.svg"
+					},
+					{
+						"id": 4,
+						"titulo": "MAIOR AGILIDADE E FLEXIBILIDADE EM SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/report.svg"
+					},
+					{
+						"id": 5,
+						"titulo": "VENDA MUITO MAIS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/currency.svg"
+					},
+					{
+						"id": 6,
+						"titulo": "EMITA TODOS OS DOCUMENTOS FISCAIS QUE PRECISAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/file.svg"
+					},
+					{
+						"id": 7,
+						"titulo": "REGISTRE AS VENDAS PERDIDAS E REPONHA CORRETAMENTE SEU ESTOQUE",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list-with-squares.svg"
+					},
+					{
+						"id": 8,
+						"titulo": "CONFERÊNCIA DE MERCADORIAS E LEITURA DE CÓDIGO DE BARRAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/bar-code.svg"
+					},
+					{
+						"id": 9,
+						"titulo": "DASHBOARD: INFORMAÇÃO ESTRATÉGICA QUE VEM ATÉ VOCÊ",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/dashboard.svg"
+					},
+					{
+						"id": 10,
+						"titulo": "COMISSIONE SUA EQUIPE DE MANEIRA DIFERENCIADA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/payment.svg"
+					},
+					{
+						"id": 11,
+						"titulo": "SUPORTE ESPECIALIZADO, CONTE CONOSCO",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/support.svg"
+					}
+				],
+				"versoes": [
+					{
+						"id": 1,
+						"titulo": "DS NF-E",
+						"texto": "<p>Versão para empresas que precisam apenas realizar vendas e emitir documentos fiscais ao consumidor (Cupom Fiscal, SAT, NFC-e) ou Notas Fiscais Eletrônicas (DANFE). Ainda dispõe de recursos para vendas a prazo, recebimento de contas e fechamento de caixa. O DS NF-e é uma opção muito mais vantajosa do que o emissor gratuito da Sefaz. Como diferencial, essa licença é comercializada para pagamento anual em taxa única e renovável a cada 12 meses.</p><p class='text-right'>*Licença para um computador.</p>"
+					},
+					{
+						"id": 2,
+						"titulo": "DS ONE",
+						"texto": "<p>Versão para empresas que estão iniciando suas atividades e procuram um diferencial para auxiliar em seu crescimento e organização. Possui todos os recursos necessários para realização de orçamento, vendas, fechamento de caixa, controle de estoque e ainda recursos básicos para controle de contas a receber/pagar, bem como relatórios de controle e gerenciais.</p><p class='text-right'>*Licença para até dois computadores.</p>"
+					},
+					{
+						"id": 3,
+						"titulo": "DS PRO",
+						"texto": "<p>Versão para empresas já consolidadas no mercado que procuram otimizar a gestão e a expansão da empresa. Possui todas as ferramentas necessárias para gestão dos negócios, tais como faturamento, controle de estoque e finanças, além de recursos para controle de contrato de serviços e locação. Dispõe também de relatórios gerenciais para tomada de decisão em três módulos: Comercial, Estoque e Finanças.</p><p class='text-right'>*Licença para até 15 computadores.</p>"
+					},
+					{
+						"id": 4,
+						"titulo": "DS PREMIUM",
+						"texto": "<p>Versão para empresas que procuram expandir seus negócios e buscam destaque em sua região de atuação. Possui todas as ferramentas da versão PRO e ainda módulos para controles fiscal e contábil, ideal para empresas que atuam no regime fiscal normal (Regime do Lucro Real ou Presumido). Gerar arquivos fiscais exigidos pelo fisco: Sped Fiscal, contribuições, ECD, ECF, entre outros.</p><p class='text-right'>*Licença ilimitada por CNPJ.</p>"
+					}
+				]
+			},
+			{
+				"id": 3,
+				"link": "/solucoes/gestao-de-pessoas",
+				"titulo": "<p>GESTÃO DE PESSOAS</p>",
+				"nome": "GESTÃO DE PESSOAS",
+				"slug": "gestao-de-pessoas",
+				"imagem": "/images/solucao3.jpg",
+				"titulo_texto": "<h3>Conheça nossas <span>soluções</span> e suas <span>vantagens</span></h3>",
+				"texto": "<p class='text-left'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"video_link": "/images/video.jpg",
+				"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+				"video_texto": "<p class='text-right'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"beneficios": [
+					{
+						"id": 1,
+						"titulo": "REALIZE TUDO QUE SUA EMPRESA PRECISA NO MESMO LUGAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/briefcase.svg"
+					},
+					{
+						"id": 2,
+						"titulo": "CONHEÇA SEUS CLIENTES E AUMENTE SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/user.svg"
+					},
+					{
+						"id": 3,
+						"titulo": "EVITE PROBLEMAS COM A INADIMPLÊNCIA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list.svg"
+					},
+					{
+						"id": 4,
+						"titulo": "MAIOR AGILIDADE E FLEXIBILIDADE EM SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/report.svg"
+					},
+					{
+						"id": 5,
+						"titulo": "VENDA MUITO MAIS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/currency.svg"
+					},
+					{
+						"id": 6,
+						"titulo": "EMITA TODOS OS DOCUMENTOS FISCAIS QUE PRECISAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/file.svg"
+					},
+					{
+						"id": 7,
+						"titulo": "REGISTRE AS VENDAS PERDIDAS E REPONHA CORRETAMENTE SEU ESTOQUE",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list-with-squares.svg"
+					},
+					{
+						"id": 8,
+						"titulo": "CONFERÊNCIA DE MERCADORIAS E LEITURA DE CÓDIGO DE BARRAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/bar-code.svg"
+					},
+					{
+						"id": 9,
+						"titulo": "DASHBOARD: INFORMAÇÃO ESTRATÉGICA QUE VEM ATÉ VOCÊ",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/dashboard.svg"
+					},
+					{
+						"id": 10,
+						"titulo": "COMISSIONE SUA EQUIPE DE MANEIRA DIFERENCIADA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/payment.svg"
+					},
+					{
+						"id": 11,
+						"titulo": "SUPORTE ESPECIALIZADO, CONTE CONOSCO",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/support.svg"
+					}
+				],
+				"versoes": [
+					{
+						"id": 1,
+						"titulo": "DS NF-E",
+						"texto": "<p>Versão para empresas que precisam apenas realizar vendas e emitir documentos fiscais ao consumidor (Cupom Fiscal, SAT, NFC-e) ou Notas Fiscais Eletrônicas (DANFE). Ainda dispõe de recursos para vendas a prazo, recebimento de contas e fechamento de caixa. O DS NF-e é uma opção muito mais vantajosa do que o emissor gratuito da Sefaz. Como diferencial, essa licença é comercializada para pagamento anual em taxa única e renovável a cada 12 meses.</p><p class='text-right'>*Licença para um computador.</p>"
+					},
+					{
+						"id": 2,
+						"titulo": "DS ONE",
+						"texto": "<p>Versão para empresas que estão iniciando suas atividades e procuram um diferencial para auxiliar em seu crescimento e organização. Possui todos os recursos necessários para realização de orçamento, vendas, fechamento de caixa, controle de estoque e ainda recursos básicos para controle de contas a receber/pagar, bem como relatórios de controle e gerenciais.</p><p class='text-right'>*Licença para até dois computadores.</p>"
+					},
+					{
+						"id": 3,
+						"titulo": "DS PRO",
+						"texto": "<p>Versão para empresas já consolidadas no mercado que procuram otimizar a gestão e a expansão da empresa. Possui todas as ferramentas necessárias para gestão dos negócios, tais como faturamento, controle de estoque e finanças, além de recursos para controle de contrato de serviços e locação. Dispõe também de relatórios gerenciais para tomada de decisão em três módulos: Comercial, Estoque e Finanças.</p><p class='text-right'>*Licença para até 15 computadores.</p>"
+					},
+					{
+						"id": 4,
+						"titulo": "DS PREMIUM",
+						"texto": "<p>Versão para empresas que procuram expandir seus negócios e buscam destaque em sua região de atuação. Possui todas as ferramentas da versão PRO e ainda módulos para controles fiscal e contábil, ideal para empresas que atuam no regime fiscal normal (Regime do Lucro Real ou Presumido). Gerar arquivos fiscais exigidos pelo fisco: Sped Fiscal, contribuições, ECD, ECF, entre outros.</p><p class='text-right'>*Licença ilimitada por CNPJ.</p>"
+					}
+				]
+			},
+			{
+				"id": 4,
+				"link": "/solucoes/gestao-de-facilities",
+				"titulo": "<p>GESTÃO DE FACILITIES</p>",
+				"nome": "GESTÃO DE FACILITIES",
+				"slug": "gestao-de-facilities",
+				"imagem": "/images/solucao4.jpg",
+				"titulo_texto": "<h3>Conheça nossas <span>soluções</span> e suas <span>vantagens</span></h3>",
+				"texto": "<p class='text-left'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"video_link": "/images/video.jpg",
+				"video_titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+				"video_texto": "<p class='text-right'>Nossa especialidade é desenvolver sistemas customizados para os diversos segmentos empresariais. Nos especializamos em desenvolver soluções que atendam às necessidades de nossos clientes e que lhes proporcione vantagem competitiva.</p>",
+				"beneficios": [
+					{
+						"id": 1,
+						"titulo": "REALIZE TUDO QUE SUA EMPRESA PRECISA NO MESMO LUGAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/briefcase.svg"
+					},
+					{
+						"id": 2,
+						"titulo": "CONHEÇA SEUS CLIENTES E AUMENTE SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/user.svg"
+					},
+					{
+						"id": 3,
+						"titulo": "EVITE PROBLEMAS COM A INADIMPLÊNCIA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list.svg"
+					},
+					{
+						"id": 4,
+						"titulo": "MAIOR AGILIDADE E FLEXIBILIDADE EM SUAS VENDAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/report.svg"
+					},
+					{
+						"id": 5,
+						"titulo": "VENDA MUITO MAIS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/currency.svg"
+					},
+					{
+						"id": 6,
+						"titulo": "EMITA TODOS OS DOCUMENTOS FISCAIS QUE PRECISAR",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/file.svg"
+					},
+					{
+						"id": 7,
+						"titulo": "REGISTRE AS VENDAS PERDIDAS E REPONHA CORRETAMENTE SEU ESTOQUE",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/list-with-squares.svg"
+					},
+					{
+						"id": 8,
+						"titulo": "CONFERÊNCIA DE MERCADORIAS E LEITURA DE CÓDIGO DE BARRAS",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/bar-code.svg"
+					},
+					{
+						"id": 9,
+						"titulo": "DASHBOARD: INFORMAÇÃO ESTRATÉGICA QUE VEM ATÉ VOCÊ",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/dashboard.svg"
+					},
+					{
+						"id": 10,
+						"titulo": "COMISSIONE SUA EQUIPE DE MANEIRA DIFERENCIADA",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/payment.svg"
+					},
+					{
+						"id": 11,
+						"titulo": "SUPORTE ESPECIALIZADO, CONTE CONOSCO",
+						"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis</p>",
+						"icone": "/images/support.svg"
+					}
+				],
+				"versoes": [
+					{
+						"id": 1,
+						"titulo": "DS NF-E",
+						"texto": "<p>Versão para empresas que precisam apenas realizar vendas e emitir documentos fiscais ao consumidor (Cupom Fiscal, SAT, NFC-e) ou Notas Fiscais Eletrônicas (DANFE). Ainda dispõe de recursos para vendas a prazo, recebimento de contas e fechamento de caixa. O DS NF-e é uma opção muito mais vantajosa do que o emissor gratuito da Sefaz. Como diferencial, essa licença é comercializada para pagamento anual em taxa única e renovável a cada 12 meses.</p><p class='text-right'>*Licença para um computador.</p>"
+					},
+					{
+						"id": 2,
+						"titulo": "DS ONE",
+						"texto": "<p>Versão para empresas que estão iniciando suas atividades e procuram um diferencial para auxiliar em seu crescimento e organização. Possui todos os recursos necessários para realização de orçamento, vendas, fechamento de caixa, controle de estoque e ainda recursos básicos para controle de contas a receber/pagar, bem como relatórios de controle e gerenciais.</p><p class='text-right'>*Licença para até dois computadores.</p>"
+					},
+					{
+						"id": 3,
+						"titulo": "DS PRO",
+						"texto": "<p>Versão para empresas já consolidadas no mercado que procuram otimizar a gestão e a expansão da empresa. Possui todas as ferramentas necessárias para gestão dos negócios, tais como faturamento, controle de estoque e finanças, além de recursos para controle de contrato de serviços e locação. Dispõe também de relatórios gerenciais para tomada de decisão em três módulos: Comercial, Estoque e Finanças.</p><p class='text-right'>*Licença para até 15 computadores.</p>"
+					},
+					{
+						"id": 4,
+						"titulo": "DS PREMIUM",
+						"texto": "<p>Versão para empresas que procuram expandir seus negócios e buscam destaque em sua região de atuação. Possui todas as ferramentas da versão PRO e ainda módulos para controles fiscal e contábil, ideal para empresas que atuam no regime fiscal normal (Regime do Lucro Real ou Presumido). Gerar arquivos fiscais exigidos pelo fisco: Sped Fiscal, contribuições, ECD, ECF, entre outros.</p><p class='text-right'>*Licença ilimitada por CNPJ.</p>"
+					}
+				]
+			}
+		]
+	},
+	"clientes": {
+		"titulo": "<h3>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h3>",
+		"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+		"clientes": [
+			{
+				"id": 1,
+				"titulo": "Gráfica Prudentina",
+				"imagem": "/images/cliente1.jpg",
+				"link": "#"
+			},
+			{
+				"id": 2,
+				"titulo": "Vitória Régia Garden Center",
+				"imagem": "/images/cliente2.jpg",
+				"link": "#"
+			},
+			{
+				"id": 3,
+				"titulo": "Security Segurança e Serviços",
+				"imagem": "/images/cliente3.jpg",
+				"link": "#"
+			},
+			{
+				"id": 4,
+				"titulo": "Santaluz Iluminação",
+				"imagem": "/images/cliente4.jpg",
+				"link": "#"
+			},
+			{
+				"id": 5,
+				"titulo": "Real Parafusos",
+				"imagem": "/images/cliente5.jpg",
+				"link": "#"
+			},
+			{
+				"id": 6,
+				"titulo": "Colégio Multiplus",
+				"imagem": "/images/cliente6.jpg",
+				"link": "#"
+			},
+			{
+				"id": 7,
+				"titulo": "Mecfrio Refrigeração",
+				"imagem": "/images/cliente7.jpg",
+				"link": "#"
+			},
+			{
+				"id": 8,
+				"titulo": "JHF Semijóias",
+				"imagem": "/images/cliente8.jpg",
+				"link": "#"
+			},
+			{
+				"id": 9,
+				"titulo": "Insituto de Radiologia Presidente Prudente",
+				"imagem": "/images/cliente9.jpg",
+				"link": "#"
+			},
+			{
+				"id": 10,
+				"titulo": "Fundação Agripino Lima",
+				"imagem": "/images/cliente10.jpg",
+				"link": "#"
+			},
+			{
+				"id": 11,
+				"titulo": "Evo Nutrition",
+				"imagem": "/images/cliente11.jpg",
+				"link": "#"
+			},
+			{
+				"id": 12,
+				"titulo": "Empório do Pão",
+				"imagem": "/images/cliente12.jpg",
+				"link": "#"
+			},
+			{
+				"id": 13,
+				"titulo": "Central Móveis",
+				"imagem": "/images/cliente13.jpg",
+				"link": "#"
+			},
+			{
+				"id": 14,
+				"titulo": "Master Distribuidora de Peças",
+				"imagem": "/images/cliente14.jpg",
+				"link": "#"
+			},
+			{
+				"id": 15,
+				"titulo": "Casa do Pequeno Trabalhador",
+				"imagem": "/images/cliente15.jpg",
+				"link": "#"
+			}
+		],
+		"depoimentos": [
+			{
+				"id": 1,
+				"video_link": "/images/video.jpg",
+				"titulo": "<h4>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h4>",
+				"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+			},
+			{
+				"id": 2,
+				"video_link": "/images/video.jpg",
+				"titulo": "<h4>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h4>",
+				"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+			},{
+				"id": 3,
+				"video_link": "/images/video.jpg",
+				"titulo": "<h4>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h4>",
+				"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+			},{
+				"id": 4,
+				"video_link": "/images/video.jpg",
+				"titulo": "<h4>lorem ipsum dolor <span>sit amet consectetur adipiscing elit</span></h4>",
+				"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+			}
+		]
+	},
+	"parceiros": {
+		"titulo": "<h3>Com soluções integradas e <span>conhecimentos específicos,</span> nossas parcerias trazem <span>resultados inovadores.</span></h3>",
+		"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>"
+	},
+	"trabalhe_conosco": {
+		"titulo": "<h3>Com soluções integradas e <span>conhecimentos específicos,</span> nossas parcerias trazem <span>resultados inovadores.</span></h3>",
+		"texto": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>"
+	}
+}

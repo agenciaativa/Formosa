@@ -1,0 +1,60 @@
+<header>
+    <div class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-3" id="logo" ng-if="config.logo">
+                    <a ui-sref="home">
+                        <img class="img-responsive" ng-src="{{ ::config.logo }}">
+                    </a>
+                </div>
+                <div class="col-sm-8 col-md-9">
+                    <div class="menu-contato">
+                        <div class="contato-info">
+                            <div class="social-links" ng-if="config.redes_sociais">
+                                <a ng-repeat="rs in config.redes_sociais track by rs.id" ng-href="{{ ::rs.link }}" class="{{ ::rs.nome }}" title="{{ ::rs.nome }}">
+                                    <img ng-src="/images/{{ ::rs.nome }}.svg" />
+                                </a>
+                            </div>
+                            <div class="telefone">
+                                <img ng-src="/images/phone-call.svg" />
+                                <h5 ddd telefone="config.telefone"></h5>
+                                <h3 fone telefone="config.telefone"></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="navbar" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li ui-sref-active="active"><a ui-sref="home">HOME</a></li>
+                                <li ui-sref-active="active"><a ui-sref="a-formosa">A FORMOSA</a></li>
+                                <li ui-sref-active="active"><a ui-sref="cardapio">CARDÁPIO</a></li>
+                                <li ui-sref-active="active"><a ui-sref="delivery">DELIVERY</a></li>
+                                <li ui-sref-active="active"><a ui-sref="evento">FAÇA SEU EVENTO</a></li>
+                                <li ui-sref-active="active"><a ui-sref="contato">CONTATO</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div id="navbar-collapse-1" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li ui-sref-active="active"><a data-toggle="collapse" data-target="#navbar-collapse-1.in" ui-sref="home">HOME</a></li>
+                            <li ui-sref-active="active"><a data-toggle="collapse" data-target="#navbar-collapse-1.in" ui-sref="a-formosa">A FORMOSA</a></li>
+                            <li ui-sref-active="active"><a data-toggle="collapse" data-target="#navbar-collapse-1.in" ui-sref="cardapio">CARDÁPIO</a></li>
+                            <li ui-sref-active="active"><a data-toggle="collapse" data-target="#navbar-collapse-1.in" ui-sref="delivery">DELIVERY</a></li>
+                            <li ui-sref-active="active"><a data-toggle="collapse" data-target="#navbar-collapse-1.in" ui-sref="evento">FAÇA SEU EVENTO</a></li>
+                            <li ui-sref-active="active"><a data-toggle="collapse" data-target="#navbar-collapse-1.in" ui-sref="contato">CONTATO</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div tmpl-banner banners="vm.banners"></div>
+</header>

@@ -1,0 +1,13 @@
+@import "core/styles/fonts.scss";
+
+@import "core/styles/variables";
+
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "core/styles/core";
+
+
+@import "components/topnav/topnav";
+@import "components/banner/banners";
+@import "components/home/home";
+@import "components/footer/footer";

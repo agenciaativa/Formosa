@@ -1,0 +1,77 @@
+/* -----------------------------------------------------------------------------
+ * Font SuperClarendon Bold
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "Superclarendon Bold";
+	src: url("../fonts/superclarendon/bold/Superclarendon-Bold.eot");
+	src: url("../fonts/superclarendon/bold/Superclarendon-Bold.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/superclarendon/bold/Superclarendon-Bold.woff") format("woff"),
+		 url("../fonts/superclarendon/bold/Superclarendon-Bold.svg#Superclarendon-Bold") format("svg");
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* -----------------------------------------------------------------------------
+ * Font SuperClarendon Regular
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "Superclarendon Regular";
+	src: url("../fonts/superclarendon/regular/Superclarendon-Regular.eot");
+	src: url("../fonts/superclarendon/regular/Superclarendon-Regular.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/superclarendon/regular/Superclarendon-Regular.ttf") format("truetype"),
+		 url("../fonts/superclarendon/regular/Superclarendon-Regular.svg#Superclarendon-Regular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* -----------------------------------------------------------------------------
+ * Font SuperClarendon Light
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "Superclarendon";
+	src: url("../fonts/superclarendon/light/Superclarendon-Light.eot");
+	src: url("../fonts/superclarendon/light/Superclarendon-Light.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/superclarendon/light/Superclarendon-Light.ttf") format("truetype"),
+	url("../fonts/superclarendon/light/Superclarendon-Light.svg#Superclarendon-Light") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+/* -----------------------------------------------------------------------------
+ * Font SignPainter SemiBold
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "SignPainter-HouseScript SemiBold";
+	src: url("../fonts/signpainter/semibold/SignPainter-HouseScript.eot");
+	src: url("../fonts/signpainter/semibold/SignPainter-HouseScript.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/signpainter/semibold/SignPainter-HouseScript.woff") format("woff"),
+	url("../fonts/signpainter/semibold/SignPainter-HouseScript.svg#SignPainter-HouseScript") format("svg");
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* -----------------------------------------------------------------------------
+ * Font SignPainter Regular
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "SignPainter-HouseScript Regular";
+	src: url("../fonts/signpainter/regular/SignPainter-HouseScript.eot");
+	src: url("../fonts/signpainter/regular/SignPainter-HouseScript.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/signpainter/regular/SignPainter-HouseScript.ttf") format("truetype"),
+	url("../fonts/signpainter/regular/SignPainter-HouseScript.svg#SignPainter-HouseScript") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* -----------------------------------------------------------------------------
+ * Font Gotham Light
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "Gotham Light";
+	src: url("../fonts/gotham/light/gotham.eot");
+	src: url("../fonts/gotham/light/gotham.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/gotham/light/gotham.ttf") format("truetype"),
+	url("../fonts/gotham/light/gotham.svg#gotham") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}

@@ -1,0 +1,54 @@
+<section id="contato">
+    <div class="container">
+        <p>Em caso de dúvidas, orçamentos e informações utilize o formulário de contato abaixo, nossa equipe irá entrar em contato o mais breve possível:</p>
+        <form class="form-container" ng-submit="sendContato()" method="POST">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="form-group">
+                                <label for="nome">NOME COMPLETO</label>
+                                <input type="text" name="nome" id="nome" class="form-control" ng-model="vm.nome">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="form-group">
+                                <label for="telefone">TELEFONE</label>
+                                <input type="text" name="telefone" id="telefone" class="form-control" ng-model="vm.telefone">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="form-group">
+                                <label for="email">E-MAIL</label>
+                                <input type="text" name="email" id="email" class="form-control" ng-model="vm.email">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                        <label for="mensagem">MENSAGEM</label>
+                        <textarea name="mensagem" id="mensagem" class="form-control" placeholder="Mensagem" ng-model="vm.mensagem"></textarea>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <button type="button" class="btn btn-enviar pull-right">ENVIAR</button>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-sm-8 col-md-8 col-lg-8 endereco text-center">
+                <h4>{{ ::vm.config.telefone }} • {{ ::vm.config.celular }}</h4>
+                <h6>{{ ::vm.config.endereco }}</h6>
+            </div>
+        </div>
+    </div>
+    <div id="map">
+        <div map-lazy-load="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_VzsveApygg119Ri3-Ji_nNqfX4P0joI"
+             map-lazy-load-params="">
+            <ng-map id="siteMap" center="[{{ vm.config.latitude }}, {{ vm.config.longitude }}]" zoom="15" style="height: 500px;" styles="{{ vm.mapStyle }}">
+                <marker icon="{{ vm.markerStyle }}" position="{{ vm.config.latitude }}, {{ vm.config.longitude }}" title="Avenida Getúlio Vargas, 163 - Bairro do Bosque"></marker>
+            </ng-map>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,126 @@
+header {
+	div[tmpl-banner] {
+		.carousel {
+			/* ----- Banner Image ----- */
+			.carousel-inner {
+				> .item {
+					> img,
+					> div > img {
+						min-width: 100%;
+						max-width: 100%;
+					}
+
+					> div > .carousel-caption {
+						top: 45%;
+						padding:0;
+						font-size: 60px;
+
+						img {
+							margin: 0 auto;
+							max-width: 70%;
+
+							&.rotate {
+								@include rotate(180deg);
+								margin: 0 auto 0;
+							}
+						}
+
+						p {
+							font-family: $signpainter-regular;
+							font-size: 60%;
+							line-height: 90%;
+							margin:0;
+							color: $branco;
+						}
+					}
+				}
+			}
+
+			/* ----- Carousel Indicators ----- */
+			.carousel-indicators {
+				bottom: 0;
+
+				li {
+					background-color: $branco;
+					@include opacity(0.6);
+
+					&.active {
+						@include opacity(1);
+						background-color: $cor_destaque;
+					}
+
+					&,
+					&.active {
+						width:60px;
+						height:3px;
+						margin: 0 10px 0 0;
+						border: none;
+						-webkit-border-radius: 0;
+						-moz-border-radius: 0;
+						border-radius: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	header {
+		div[tmpl-banner] {
+			.carousel {
+				.carousel-inner {
+					> .item {
+						> div > .carousel-caption {
+							top: 35%;
+
+							img {
+								max-width: 100%;
+								margin: 0 auto 15px;
+
+								&.rotate {
+									margin: 15px auto 0;
+								}
+							}
+							p {
+								font-size: 80%;
+								line-height: 90%;
+							}
+						}
+					}
+				}
+
+				.carousel-indicators {
+					bottom: 20px;
+					li {
+						&,
+						&.active {
+							width: 90px;
+							height: 4px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		div[tmpl-banner] {
+			.carousel {
+				.carousel-inner {
+					> .item {
+						> div > .carousel-caption {
+
+							p {
+								font-size: 100%;
+								line-height: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

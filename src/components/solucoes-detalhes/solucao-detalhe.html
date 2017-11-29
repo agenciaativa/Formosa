@@ -1,0 +1,55 @@
+<div id="solucao">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-md-4 col-lg-3">
+                <div ng-bind-html="solucao.titulo_texto"></div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="row">
+                    <div class="col-sm-9 col-md-8 col-lg-8">
+                        <div ng-bind-html="solucao.texto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row lista-beneficios">
+            <div class="col-sm-6 col-md-6 col-lg-6 beneficio-wrap" ng-repeat="b in solucao.beneficios track by b.id">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4 col-lg-3 beneficio-img-wrap">
+                        <div class="beneficio-img">
+                        <span>
+                            <img class="img-responsive" ng-src="{{ ::b.icone }}" />
+                        </span>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-9">
+                        <div class="beneficio-texto">
+                            <h4>{{ ::b.titulo }}</h4>
+                            <div ng-bind-html="b.texto"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row lista-versoes" ng-if="solucao.versoes.length > 0">
+            <h3 class="text-center">VERSÕES <span>DISPONÍVEIS</span></h3>
+            <div class="item-versao-wrap">
+                <div class="col-sm-6 col-md-6 col-lg-6 item-versao" ng-repeat="v in solucao.versoes track by v.id">
+                    <div class="item-versao-titulo">
+                        <h3>{{ ::v.titulo }}</h3>
+                    </div>
+                    <div class="item-versao-descricao" ng-bind-html="v.texto"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row valign-content row-video">
+            <div class="col-sm-7 col-md-7 col-lg-8 video-player">
+                <img class="img-responsive" ng-src="{{ ::solucao.video_link }}">
+            </div>
+            <div class="col-sm-5 col-md-5 col-lg-4 text-video">
+                <div ng-bind-html="solucao.video_titulo"></div>
+                <div ng-bind-html="solucao.video_texto"></div>
+            </div>
+        </div>
+    </div>
+</div>

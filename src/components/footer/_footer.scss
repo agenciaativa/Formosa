@@ -1,0 +1,31 @@
+footer {
+	background-color: $background_color_footer;
+	padding: 40px 0;
+	text-align: center;
+
+	.container {
+		.logo {
+			a {
+				display: inline-block;
+				margin: 0 auto;
+			}
+		}
+
+		.menu-contato {
+			.contato-info {
+				color: $branco;
+				font-family: $superclarendon-light;
+				margin-top: 30px;
+
+				.endereco {
+
+				}
+
+				.telefone {
+
+				}
+			}
+
+		}
+	}
+}

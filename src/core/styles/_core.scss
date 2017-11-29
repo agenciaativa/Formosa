@@ -1,0 +1,147 @@
+//region General Settings
+/* Workaround for unwanted route changes due to empty href attributes - see http://angular-ui.github.io/bootstrap/ */
+.nav, .pagination, .carousel, .panel-title a {
+    cursor: pointer;
+}
+
+/* Remove border to delete the 1px line */
+.navbar-fixed-top {
+	border: 0;
+}
+
+/* -----------------------------------------------------------------------------
+ * General Settings
+ * -------------------------------------------------------------------------- */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: $superclarendon-regular;
+    color: $main_color;
+}
+
+/* ----- Body Root Settings ----- */
+div[tmpl-approot] {
+    min-height: 100%;
+    position: relative;
+}
+
+p {
+    font-size: 14px;
+	color: $cor_texto;
+	font-family: $superclarendon-light;
+	line-height: 26px;
+}
+
+section {
+	margin-bottom: 40px;
+
+	p {
+		text-align: justify;
+		margin-bottom: 15px;
+	}
+}
+
+.sp-font {
+	font-family: $signpainter-regular;
+	color: $cor_destaque;
+}
+
+.f60 {
+	font-size: 60px;
+}
+
+.destaque {
+	color: $cor_destaque !important;
+}
+
+/* ----- Newsletter ----- */
+.newsletter {
+	color: $branco;
+	padding: 80px 0;
+	font-family: $superclarendon-regular;
+
+	h3 {
+		text-transform: uppercase;
+		margin-top: 0;
+
+		span {
+			font-family: $superclarendon-bold;
+		}
+	}
+
+	.input-group {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		height: 50px;
+
+		.form-control {
+			outline: none;
+			border-radius: 0;
+			height: 100%;
+			background-color: transparent;
+			border: 1px solid $branco;
+			color: $branco;
+			font-weight: bold;
+		}
+
+		.input-group-btn {
+			.btn-newsletter {
+				height:100%;
+				padding-right: 20px;
+				padding-left: 20px;
+				background-color: $branco;
+				border-radius: 0;
+				border: 2px solid $branco;
+				font-family: $superclarendon-bold;
+			}
+		}
+	}
+}
+
+[placeholder] {
+    /* Firefox 4 - 18 */
+    font-family: $superclarendon-regular;
+    outline: none;
+}
+
+[placeholder]::-moz-placeholder {
+    color: $branco;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+
+[placeholder]:focus::-moz-placeholder {
+    opacity: 0.5;
+}
+
+[placeholder]:-ms-input-placeholder {
+    color: $branco;
+    transition: opacity 250ms ease-in-out;
+}
+
+[placeholder]:focus:-ms-input-placeholder {
+    opacity: 0.5;
+}
+
+[placeholder]::-webkit-input-placeholder {
+    color: $branco;
+    transition: opacity 250ms ease-in-out;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+
+[placeholder] :-moz-placeholder {
+    color: $branco;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+
+[placeholder] :focus:-moz-placeholder {
+    opacity: 0.5;
+}
+
+//endregion

@@ -1,0 +1,82 @@
+<section id="breadcrumbs" ng-if="state && state != 'home'">
+    <div class="container" ng-switch="state">
+        <div ng-switch-when="a-duesoft">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>A DUESOFT</h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span>A DUESOFT</span>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="solucoes">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>SOLUÇÕES</h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span>SOLUÇÕES</span>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="solucoes-detalhe">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>SOLUÇÕES <small>{{ solucao.nome }}</small></h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span><a ui-sref="solucoes">SOLUÇÕES</a></span> /
+                    <span>{{ solucao.nome }}</span>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="clientes">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>CLIENTES</h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span>CLIENTES</span>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="parceria">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>SEJA UM PARCEIRO</h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span>SEJA UM PARCEIRO</span>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="trabalhe-conosco">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>TRABALHE CONOSCO</h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span>TRABALHE CONOSCO</span>
+                </div>
+            </div>
+        </div>
+        <div ng-switch-when="contato">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6 page-title">
+                    <h2>CONTATO</h2>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6 breadcrumb-nav">
+                    <span><a ui-sref="home">HOME</a></span> /
+                    <span>CONTATO</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

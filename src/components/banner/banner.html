@@ -1,0 +1,12 @@
+<div uib-carousel active="0" interval="3000">
+    <div uib-slide ng-repeat="slide in banners track by $index" index="$index">
+        <img class="img-responsive" ng-src="{{ ::slide.imagem }}" style="margin:auto;" />
+        <div class="carousel-caption">
+            <img class="img-responsive" src="/images/ramo.png" />
+            <p class="destaque">Tradição e qualidade</p>
+            <p>em cada detalhe.</p>
+            <p>Uma delícia a todo momento.</p>
+            <img class="img-responsive rotate" src="/images/ramo.png" />
+        </div>
+    </div>
+</div>
